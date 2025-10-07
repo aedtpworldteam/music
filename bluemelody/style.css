@@ -1,1 +1,74 @@
-404: Not Found
+:root {
+  --btn-bg: rgb(30, 144, 255); /* Blue default */
+  --text-color: rgb(50, 50, 50);
+  --bg-color: white;
+  --font-family: Arial, sans-serif;
+  --font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-list {
+  padding: 20px;
+}
+
+.file-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fefefe;
+}
+
+.file-name {
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
