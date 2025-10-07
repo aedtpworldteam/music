@@ -23,7 +23,7 @@ const FOLDERS = [
 ];
 
 /* Utilities */
-const baseArtPath = "https://aedtpworldteam.github.io/music/releases/artworks/";
+const baseArtPath = "https://github.com/aedtpworldteam/music/releases/download/artworks/";
 const baseFolderSite = "https://aedtpworldteam.github.io/music/";
 
 /* DOM refs */
