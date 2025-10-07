@@ -1,1 +1,68 @@
-404: Not Found
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Melody</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <!-- Logo + site name -->
+    <div class="logo" onclick="window.location.href='index.html'">
+      <img src="bluemelodylogo.png" alt="Blue Melody Logo">
+      <span>Blue Melody</span>
+    </div>
+
+    <!-- Theme + font controls -->
+    <div class="controls">
+      <button onclick="toggleTheme()">Toggle Theme</button>
+      <label>
+        Font:
+        <select onchange="changeFont(this.value)">
+          <option value="Arial, sans-serif">Arial</option>
+          <option value="Verdana, sans-serif">Verdana</option>
+          <option value="'Courier New', monospace">Courier New</option>
+          <option value="'Times New Roman', serif">Times New Roman</option>
+        </select>
+      </label>
+      <label>
+        Font Size:
+        <input type="number" value="16" min="12" max="30" onchange="changeFontSize(this.value)">
+      </label>
+      <label>
+        Custom Button Color:
+        <input type="color" onchange="changeButtonColor(this.value)">
+      </label>
+    </div>
+  </header>
+
+
+
+  <!--- MUSIC FILES ARE HERE! --->
+
+
+  
+  <!-- File List -->
+  <section class="file-list">
+    <div class="file-entry">
+      <span class="file-name">Buddy DML - Lonely Journey</span>
+      <a href="buddy-dml-lonely-journey.mp3" download>
+        <button>DOWNLOAD</button>
+      </a>
+    </div>
+
+
+    
+    <!-- Add more file entries manually here -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
