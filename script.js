@@ -14,7 +14,7 @@ const FOLDERS = [
   {
     title: "Blue Melody",
     slug: "bluemelody",
-    artwork: "https://github.com/aedtpworldteam/music/releases/download/artworks/bluemelodylogo.png",   // place this file at releases/artworks/
+    artwork: "bluemelodylogo.png",   // place this file at releases/artworks/
     description: "Blue Melody — songs, artwork and mixes. Click Open to visit the Blue Melody site.",
     siteUrl: "https://aedtpworldteam.github.io/music/bluemelody"
   }
