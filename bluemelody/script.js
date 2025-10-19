@@ -14,13 +14,6 @@ function toggleTheme() {
   }
 }
 
-function changeFont(font) {
-  document.documentElement.style.setProperty('--font-family', font);
-}
-
-function changeFontSize(size) {
-  document.documentElement.style.setProperty('--font-size', size + 'px');
-}
 
 function changeButtonColor(color) {
   document.documentElement.style.setProperty('--btn-bg', color);
