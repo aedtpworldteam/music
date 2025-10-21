@@ -2,7 +2,7 @@ let darkTheme = false;
 
 function toggleTheme() {
   if (!darkTheme) {
-    document.documentElement.style.setProperty('--btn-bg', 'rgb(15, 37, 57)');
+    document.documentElement.style.setProperty('--btn-bg', 'rgb(0, 153, 219)');
     document.documentElement.style.setProperty('--bg-color', '#222');
     document.documentElement.style.setProperty('--text-color', 'rgb(441, 540, 130)');
     darkTheme = true;
