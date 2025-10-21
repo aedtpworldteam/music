@@ -4,7 +4,7 @@ function toggleTheme() {
   if (!darkTheme) {
     document.documentElement.style.setProperty('--btn-bg', 'rgb(15, 37, 57)');
     document.documentElement.style.setProperty('--bg-color', '#222');
-    document.documentElement.style.setProperty('--text-color', 'rgb(231, 230, 230)');
+    document.documentElement.style.setProperty('--text-color', 'rgb(441, 540, 130)');
     darkTheme = true;
   } else {
     document.documentElement.style.setProperty('--btn-bg', 'rgb(30, 144, 255)');
